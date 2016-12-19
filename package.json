@@ -1,8 +1,8 @@
 {
-  "name": "defered-iframe-element",
+  "name": "iframe-defer-element",
   "version": "1.0.0",
   "description": "Iframe custom element. Makes iframe not render blocking, increases your page loading speed.",
-  "main": "dist/index.js",
+  "main": "src/index.js",
   "keywords": [
     "web-components",
     "custom-elements",
@@ -12,19 +12,18 @@
   "scripts": {
     "build": "rollup --config"
   },
-  "repository": "denar90/defered-iframe-element",
+  "repository": "denar90/iframe-defer-element",
   "authors": [
     "denar90",
     "shvaikalesh"
   ],
   "ignore": [
     "node_modules",
-    "bower_components",
     "demo"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/denar90/defered-iframe-element#readme",
-  "bugs": "https://github.com/brunch/denar90/defered-iframe-element",
+  "homepage": "https://github.com/denar90/iframe-defer-element#readme",
+  "bugs": "https://github.com/brunch/denar90/iframe-defer-element",
   "dependencies": {
     "document-promises": "^2.0.0"
   },

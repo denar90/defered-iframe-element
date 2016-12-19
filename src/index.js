@@ -1,6 +1,6 @@
 import { loaded } from 'document-promises';
 
-customElements.define('deferred-iframe', class extends HTMLElement {
+customElements.define('iframe-defer', class extends HTMLElement {
   connectedCallback() {
     loaded.then(() => {
       if (!this.closest(':root')) return;
