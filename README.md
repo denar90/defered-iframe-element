@@ -14,22 +14,11 @@ Install the component using [Npm](https://www.npmjs.com/):
 $ npm install iframe-defer-element --save
 ```
 
-Or [download as ZIP](https://github.com/denar90/iframe-defer-element/archive/master.zip).
-
 ## Usage
 
 ```html
   <iframe-defer width="500" height="500" src="//player.vimeo.com/video/75702540"></iframe-defer>
 ```
-
-## Options
-
-Attribute| Options     | Default  | Description
----      | ---         | ---      | ---
-`width`  | *string*    | -        | Iframe width
-`height` | *string*    | -        | Iframe height
-`src`    | *string*    | -        | Iframe src
-
 
 ## History
 
