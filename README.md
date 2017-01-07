@@ -17,7 +17,7 @@ $ npm install iframe-defer-element --save
 ## Usage
 
 ```html
-  <iframe-defer width="500" height="500" src="//player.vimeo.com/video/75702540"></iframe-defer>
+<iframe-defer width="640" height="360" src="http://player.vimeo.com/video/134196090"></iframe-defer>
 ```
 
 ## History

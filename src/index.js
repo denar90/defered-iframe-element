@@ -18,11 +18,11 @@ customElements.define('iframe-defer', class extends HTMLElement {
     loaded.then(() => {
       if (!this.closest(':root')) return;
 
-      [].forEach.call(this.attributes, attr => {
+      for (const attr of this.attributes) {
         this._iframe.setAttribute(attr.name, attr.value);
-      });
+      }
 
-      this.appendChild(this._iframe);
+      this.append(this._iframe);
     });
   }
 });
