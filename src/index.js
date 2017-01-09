@@ -7,7 +7,7 @@ customElements.define('iframe-defer', class extends HTMLElement {
   }
 
   static get observedAttributes() {
-    return ['width', 'height'];
+    return Object.keys(HTMLIFrameElement.prototype);
   }
 
   attributeChangedCallback(name, oldValue, newValue) {
